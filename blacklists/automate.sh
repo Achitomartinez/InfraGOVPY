@@ -26,6 +26,7 @@ tail -n +32 sources/firehol_abusers_30d.netset >> todos.txt
 tail -n +37 sources/botscout_7d.ipset >> todos.txt
 cat sources/blocklist_de_all.txt >> todos.txt
 cat sources/ci-badguys.txt >> todos.txt
+tail -n +2 sources/infra_govpy.txt >> todos.txt
 echo "eliminando duplicados"
 /usr/local/bin/iprange --print-ranges todos.txt > listado_full.txt
 
