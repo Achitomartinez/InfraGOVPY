@@ -1,2 +1,3 @@
 #Lista de IP's proveidas en el grupo
 18.143.145.178
+156.246.17.42
